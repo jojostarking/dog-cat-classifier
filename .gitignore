@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -6,36 +5,23 @@ __pycache__/
 .Python/
 env/
 venv/
-myenv/ # 您的舊虛擬環境
+myenv/ 
 .ipynb_checkpoints
-.vscode/ # VS Code 配置，可選
+.vscode/
 *.log
-.DS_Store # macOS specific
+.DS_Store
 
-# Anaconda
 .conda/
 .ipynb_checkpoints/
 conda-meta/
 envs/
 
-# Deep Learning models
-*.h5 # 您的 model.h5
 *.pth
 *.pt
 *.ckpt
 
-# Data
-data/ # 如果您的數據量大且不想版本控制
-uploads/ # 如果有使用者上傳的檔案
-
-# Hugging Face specific (如果您是將整個 repo 作為 dataset 或 Model repo)
-# 不部署app.py時才加
-# __pycache__/
-# *.pyc
-# *.pt
-# *.pth
-# *.ckpt
-# model.h5
+data/ 
+uploads/ 
 test/
 train/
 static/uploads/
