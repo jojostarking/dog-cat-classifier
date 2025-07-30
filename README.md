@@ -3,7 +3,7 @@ title: Dog vs Cat Classifier
 emoji: 🐶🐱
 colorFrom: green
 colorTo: indigo
-sdk: flask 
+sdk: docker
 app_file: app.py 
 python_version: 3.9 
 # model: your-username/your-model-on-hub 
