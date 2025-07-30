@@ -3,7 +3,7 @@ title: Dog vs Cat Classifier
 emoji: 🐶🐱
 colorFrom: green
 colorTo: indigo
-sdk: docker
+sdk: gradio
 app_file: app.py 
 python_version: 3.9 
 # model: your-username/your-model-on-hub 
@@ -47,7 +47,3 @@ python_version: 3.9
     python app.py
     ```
     然後在瀏覽器中訪問 `http://127.0.0.1:5000` (或控制台顯示的地址)。
-
-## 部署到 Hugging Face Spaces
-
-。
