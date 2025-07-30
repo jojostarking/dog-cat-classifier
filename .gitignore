@@ -38,3 +38,4 @@ uploads/ # 如果有使用者上傳的檔案
 # model.h5
 test/
 train/
+static/uploads/
